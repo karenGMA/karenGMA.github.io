@@ -1,23 +1,62 @@
-<!doctype hmtl>
-<title> Fees </title>
-<html>
-<head>
-<meta charset="utf-8">
-</head>
-<body>
-<h1> Fees </h1>
-<table>
-<tr>
-<th> Service </th> <th> Fee </th>
-</tr>
-<tr>
-<td> Web design </td><td> Starting at $75/hour </td>
-</tr>
-<tr>
-<td> App Development </td> <td> starting at $95/hour </td>
-</tr>
-</table>
+<!doctype hmtl> 
+<script>
+function popup() {
+window.open("http://karengma.me/fees.html","popup", "height=300px, width=300px, top=200px, left=400px" ) }
+</script>
+<link href="style.css" rel="stylesheet"> 
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+
+ <title> Fees </title> 
+<html> 
+
+<style>
+
+h1{ 
+	float: center;
+ 	color: crimson; 
+    font-family: 'Raleway', sans-serif;
+     }
+
+    h2{color:white;}
+body{ 
+    color:black;
+      text-align: center;
+      font-family: "Lucida Sans Unicode", sans-serif;
+      background-image: url(https://images.unsplash.com/photo-1428699190791-2c4f8b144d06?fit=crop&fm=jpg&h=975&ixlib=rb-0.3.5&q=80&w=1925);
+      background-size: 115%;
+  }
+table{ padding:15px;
+	margin:0px;
+	color: white;
+text-align: center;
+float: center;
+border: 2px solid crimson;
+width:1900px;}
+
+</style>
+ <head> 
+<meta charset="utf-8"> 
+</head> 
+ <body> 
+ <h1> Fees </h1> 
+ <h2> Web design price </h2>
+ <table> 
+ <tr> 
+ <th> Basic </th> <th> Standard </th><th> Premium</th> 
+ </tr> 
+ <tr> 
+ <td> $1500 </td><td> $2200 <td> $4000 </td> 
+ </tr>
+ </table> 
+ <h2> Branding price</h2>
+ <table>
+ 	<tr> <th> Basic</th> <th> Standard </th> <th> Premium </th></tr>
+ 	<td> $1050</td> <td> $3000 </td> <td> $5000</td>
+ </table>
+
+   </body> 
+</html> 
 
 
-</body>
-</html>
+
