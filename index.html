@@ -80,6 +80,9 @@ margin-right:20px;
 background: -webkit-linear-gradient(to left, #5D4157 , #A8CABA); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #5D4157 , #A8CABA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
+    #my-resume iframe{
+width:800px; height:800px;
+    }
 
   </style>
 <head>
@@ -87,7 +90,7 @@ background: linear-gradient(to left, #5D4157 , #A8CABA); /* W3C, IE 10+/ Edge, F
     <a href="http://karengma.me/contact"> Contact </a>
     <a href="http://karengma.me/about"> About me </a>
     <a href="http://karengma.me/porfolio">  Porfolio </a>
-    <a href="http://karengma.me/news"> News  </a>
+    <a href="my page here"> News  </a>
     </nav>
   
 </section>
@@ -96,11 +99,13 @@ background: linear-gradient(to left, #5D4157 , #A8CABA); /* W3C, IE 10+/ Edge, F
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
   
-  
-  
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
 </head>
 <body>
 <header style="padding: 18px;">
+
 
   <img src="http://i.imgur.com/AvPwEc1.png" width="280" alt="karenGMA Wb logo">
  <h1>Karen Guevara <br> Graphic and web designer</h1>
@@ -146,10 +151,16 @@ Hope you enjoy!<br>
 
 </section>-->
 <section id="images">
-  <img src="http://i.imgur.com/vUiMBEL.jpg" style="border-radius: 40px"; width="180" height="270" alt="How can you act like you know...">
-  <img src="http://i.imgur.com/t8yH887.jpg" style="border-radius: 40px"; width="180" height="270" alt="Once Upon A Time poster">
-  <img src="http://i.imgur.com/Ol7KPYM.jpg" style="border-radius: 40px"; width="180" height="270" alt=" Alex vause, Orange is the new black. portrait ilustration"
+  
+
+
+  <a class="test-popup-link" href="http://i.imgur.com/vUiMBEL.jpg"><img src="http://i.imgur.com/vUiMBEL.jpg" style="border-radius: 40px"; width="180" height="270" alt="How can you act like you know..."> </a>
+  <a class="test-popup-link" href="http://i.imgur.com/t8yH887.jpg"> <img src="http://i.imgur.com/t8yH887.jpg" style="border-radius: 40px"; width="180" height="270" alt="Once Upon A Time poster"> </a>
+  <a class="test-popup-link" href="http://i.imgur.com/Ol7KPYM.jpg"><img src="http://i.imgur.com/Ol7KPYM.jpg" style="border-radius: 40px"; width="180" height="270" alt=" Alex vause, Orange is the new black. portrait ilustration"> </a>
   </section>
+  
+  
+  
 <footer style="padding: 18px;">
 <a href="http://www.twitter.com/karenGMA"> 
 <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-32.png">
@@ -163,4 +174,11 @@ Hope you enjoy!<br>
 <hr>
 <i class="fa fa-copyright"></i> Copyright Karen Guevara, 2015 </hr>
 </footer>
+<script>
+$('.test-popup-link').magnificPopup({
+  type: 'image',
+  gallery:{enabled:true}
+  // other options
+});
+</script>
 </body>
